@@ -21,7 +21,7 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB       &kp Q  &kp W  &kp F             &kp P  &kp B        &kp J    &kp L  &kp U          &kp Y    &kp SEMI  &kp APOS
+&kp TAB       &kp Q  &kp W  &kp F             &kp P  &kp B        &kp J    &kp L  &kp U          &kp Y    &kp F10   &kp APOS
 &kp LEFT_GUI  &kp A  &kp R  &kp S             &kp T  &kp G        &kp M    &kp N  &kp E          &kp I    &kp O     &kp ESCAPE
 &kp LSHFT     &kp X  &kp C  &kp D             &kp V  &kp Z        &kp K    &kp H  &kp COMMA      &kp DOT  &kp FSLH  &kp RIGHT_ALT
                             &kp LEFT_CONTROL  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp BACKSPACE
@@ -40,7 +40,7 @@
 &kp TAB     &kp F1        &kp F2        &kp F3        &kp F4        &kp F5       &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp C_NEXT     &kp C_PREV    &kp C_PAUSE  &kp CAPS
 &bt BT_CLR  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5       &none            &kp LEFT           &kp DOWN       &kp UP_ARROW  &kp DOWN     &kp ESCAPE
 &kp LSHFT   &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0       &trans           &trans             &trans         &trans        &trans       &kp RIGHT_ALT
-                                        &kp LGUI      &trans        &kp SPACE    &kp RET          &trans             &kp BACKSPACE
+                                        &none         &trans        &kp SPACE    &kp RET          &trans             &kp BACKSPACE
             >;
         };
 
@@ -53,10 +53,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp TAB       &kp TILDE  &kp DOLLAR  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PRCNT    &kp CARET  &kp DOUBLE_QUOTES  &kp LESS_THAN  &kp GREATER_THAN  &none            &kp BSPC
-&kp LEFT_GUI  &kp UNDER  &kp SEMI    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE     &kp HASH   &kp EQUAL          &kp MINUS      &kp PLUS          &kp EXCLAMATION  &none
-&kp LSHFT     &kp F12    &kp AMPS    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT       &none      &kp SLASH          &kp STAR       &kp BACKSLASH     &none            &none
-                                     &kp LEFT_CONTROL      &trans                 &kp SPACE    &kp RET    &trans             &kp BACKSPACE
+&kp TAB       &kp TILDE  &kp DOLLAR  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PRCNT    &kp CARET      &kp DOUBLE_QUOTES  &kp LESS_THAN  &kp GREATER_THAN  &kp F11          &kp BSPC
+&kp LEFT_GUI  &kp UNDER  &kp COLON   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE     &kp HASH       &kp EQUAL          &kp MINUS      &kp PLUS          &kp EXCLAMATION  &none
+&kp LSHFT     &kp F12    &kp AMPS    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT       &kp SEMICOLON  &kp SLASH          &kp STAR       &kp BACKSLASH     &none            &none
+                                     &kp DELETE            &trans                 &kp SPACE    &kp RET        &trans             &kp BACKSPACE
             >;
         };
 
