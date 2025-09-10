@@ -21,10 +21,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB       &kp Q  &kp W  &kp F             &kp P  &kp B        &kp J    &kp L  &kp U          &kp Y    &kp F10   &kp APOS
-&kp LEFT_GUI  &kp A  &kp R  &kp S             &kp T  &kp G        &kp M    &kp N  &kp E          &kp I    &kp O     &kp ESCAPE
-&kp LSHFT     &kp X  &kp C  &kp D             &kp V  &kp Z        &kp K    &kp H  &kp COMMA      &kp DOT  &kp FSLH  &kp RIGHT_ALT
-                            &kp LEFT_CONTROL  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp BACKSPACE
+&kp TAB        &kp Q  &kp W  &kp F             &kp P  &kp B        &kp J    &kp L  &kp U      &kp Y    &kp F10   &kp APOS
+&kp BACKSPACE  &kp A  &kp R  &kp S             &kp T  &kp G        &kp M    &kp N  &kp E      &kp I    &kp O     &kp ESCAPE
+&kp LSHFT      &kp X  &kp C  &kp D             &kp V  &kp Z        &kp K    &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_ALT
+                             &kp LEFT_CONTROL  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp LCMD
             >;
         };
 
@@ -55,7 +55,7 @@
             bindings = <
 &kp TAB       &kp TILDE  &kp DOLLAR  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PRCNT    &kp CARET      &kp DOUBLE_QUOTES  &kp LESS_THAN  &kp GREATER_THAN  &kp F11          &kp BSPC
 &kp LEFT_GUI  &kp UNDER  &kp COLON   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE     &kp HASH       &kp EQUAL          &kp MINUS      &kp PLUS          &kp EXCLAMATION  &none
-&kp LSHFT     &kp F12    &kp AMPS    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT       &kp SEMICOLON  &kp SLASH          &kp STAR       &kp BACKSLASH     &none            &none
+&kp LSHFT     &kp F12    &kp AMPS    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT       &kp SEMICOLON  &kp SLASH          &kp STAR       &kp BACKSLASH     &kp GRAVE        &none
                                      &kp DELETE            &trans                 &kp SPACE    &kp RET        &trans             &kp BACKSPACE
             >;
         };
@@ -65,5 +65,14 @@
         extra_2 { status = "reserved"; };
 
         extra_3 { status = "reserved"; };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
     };
 };
