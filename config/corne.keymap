@@ -27,7 +27,7 @@
                              &kp LEFT_CONTROL  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RIGHT_GUI
             >;
         };
-        
+
         lower_layer {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
@@ -60,18 +60,12 @@
             >;
         };
 
-        extra_1 { status = "reserved"; };
-
-        extra_2 { status = "reserved"; };
-
-        extra_3 { status = "reserved"; };
-
-        layer_6 {
+        Cyrillic {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &kp RU_CYRILLIC_SHCHA  &kp RU_CYRILLIC_TSE  &kp RU_CYRILLIC_KA  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                 &trans               &trans              &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                 &trans               &trans              &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                                    &trans              &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
